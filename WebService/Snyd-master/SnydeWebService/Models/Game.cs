@@ -6,14 +6,17 @@ using System.Web.UI.WebControls.WebParts;
 
 namespace SnydeWebService.Controllers
 {
-    public class Game
-    {
-        public Guid GameId { get; set; }
+  public class Game
+  {
+    public int GameId { get; set; }
 
-        public List<Person> Participants { get; set; }
+    public IEnumerable<Person> Participants { get; set; }
 
-        public int RoundNumber { get; set; }
+    public int RoundNumber { get; set; }
 
-        public Person RoundLoser { get; set; }
-    }
+    public bool IsOngoing { get; set; }
+
+    public bool IsActive { get; set; }
+
+  }
 }

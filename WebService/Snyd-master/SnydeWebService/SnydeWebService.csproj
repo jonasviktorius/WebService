@@ -208,9 +208,12 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Models\Cup.cs" />
     <Compile Include="Models\Dice.cs" />
+    <Compile Include="Models\Factory\GameFactory.cs" />
+    <Compile Include="Models\Factory\PersonFactory.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -219,6 +222,8 @@
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Repository\GameRepository.cs" />
+    <Compile Include="Models\Repository\PersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Request\CreateGameRequest.cs" />
